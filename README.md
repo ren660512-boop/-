@@ -1,48 +1,78 @@
-# 雪碧大作战 · 好友挑战 v1.1
+# 🥤 雪碧大作战 · 好友挑战
 
-轻量网页小游戏，无需安装或联网资源。打开 dist/index.html 即可开始。
+一款把朋友们变成 Boss 的轻量网页小游戏。躲弹幕、打 Boss、喝雪碧回血，挑战五个充满熟人梗的关卡！
 
-## 操作
+## 🎮 在线游玩
 
-- WASD 或方向键移动；按住空格或 J 自动朝最近 Boss 普通攻击。
-- E 喝雪碧，恢复最多 34 点生命，每关 3 瓶。满血不会消耗。
-- Esc 暂停，切走页面自动暂停。手机使用方向按钮和平 A 按钮。
-- 每关补满生命和雪碧，失败直接重试当前关卡。
+👉 **[点击这里开始游戏（itch.io）](https://ren06060512gmailcom.itch.io/soda-friends)**
 
-## 关卡
+支持电脑和手机浏览器，无需安装。推荐电脑游玩。
 
-1. 小狗：上海话文字弹幕、小忧郁波纹。
-2. 简单：昆明人，文字弹幕与算术对决。答对让简单扣血，答错或超时不惩罚玩家。
-3. 陆远：首先、其次、因此，三段逻辑预警。
-4. 元元：折返的回忆，召唤松鼠冲刺造成暴击；小狗、酒神助阵起哄。
-5. 苦茶籽与酒神：情侣双人关，共用血条，代码封路和重拳合招。
+> 中国大陆部分网络可能无法打开 itch.io，也可以下载游戏文件，在电脑上解压后离线游玩。
 
-v1.1 新增屋顶夜景背景、原创循环电子 BGM、独立音乐开关与音量、回血快捷键与低血量提醒、命中爆光、气泡拖尾、施法光环、重拳冲击波和回血涟漪。小狗追加“外乡人”“松江最强”“臭外地的”等熟人嘴贫台词。地区梗与上海话文字混用，未包含真人配音或上海话录音。
+## 🕹️ 操作方式
 
-点击开始后音乐才会播放，以符合浏览器自动播放限制。暂停或切出页面时停止音乐，算术环节降低音乐音量。音乐由 music.js 在设备上合成，不需要下载外部音频，也不调用模型。
+| 操作 | 电脑按键 |
+| --- | --- |
+| 移动 | WASD / 方向键 |
+| 普通攻击 | 按住空格 / J，自动瞄准最近的 Boss |
+| 喝雪碧回血 | E |
+| 暂停 | Esc |
 
-角色形象为虚构草图，并非真人肖像。主角显示为“你”，雪碧明确作为回血道具。
+手机使用屏幕上的方向、攻击和回血按钮。
 
-## 发布到 itch.io / GitHub Pages
+- 每瓶雪碧最多恢复 **34 点生命**，每关 **3 瓶**，满血时不会消耗。
+- 进入下一关时，生命和雪碧补满。
+- 挑战失败后，可以直接重试当前关卡。
+- 切换到其他页面时，游戏自动暂停。
 
-导出的 ZIP 包根目录直接包含 index.html，解压后可离线玩。
+## 👥 五个关卡
 
-itch.io：创建项目 → Kind of project 选择 HTML → 上传 ZIP → 勾选 This file will be played in the browser → 建议嵌入尺寸 1280 × 900，开启全屏按钮与移动端支持 → 预览 → 选择公开可见性。参考：https://itch.io/docs/creators/html5
+### 1. 小狗 · 上海话弹幕
+开心中带着一点小忧郁，用上海话文字弹幕和忧郁波纹发动攻击。“松江最强”等熟人嘴贫台词也会出现在战斗中。
 
-GitHub：将游戏文件解压上传到你选择的仓库根目录 → Settings → Pages → Deploy from a branch → main / root → 保存。参考：https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+### 2. 简单 · 文科高手，理科苦手
+来自昆明的帅气资本家，文科很强，理科很差。除了文字弹幕，还会发起算术对决：玩家答对，简单扣血；答错或超时，不惩罚玩家。
 
-游戏源码无 API 密钥、无付费接口、无玩家账号服务；游玩和音乐在访客浏览器中运行。托管流量仍受所用平台政策与额度约束。
+### 3. 陆远 · 逻辑攻势
+律师的攻击也讲究逻辑。“首先、其次、因此”构成三段攻击预警，看准提示，及时走位。
 
-## 检查
+### 4. 元元 · 回忆与松鼠
+回忆化成折返的弹幕，前男友“松鼠”登场冲刺，造成暴击。小狗和酒神还会助阵起哄。
 
-JavaScript 语法检查通过。逻辑模拟通过五关击败流程、生命/药量、暂停与重试、算术答对/答错/超时、松鼠暴击、情侣合招、移动边界和结构化操作合法/非法输入。浏览器已确认实际战斗、关卡进度和失败界面，未捕获到脚本错误。
+### 5. 苦茶籽 × 酒神 · 情侣双人关
+程序员苦茶籽与丧系、外形举止偏男性化的酒神出双入对，共用血条，用代码封路与重拳打出合招。
 
-## 素材
+## ✨ v1.1 更新
 
-dist/arena.png：本轮使用内置 Imagegen 生成的屋顶夜景背景，1536 × 1024。生成提示词：Create a polished 1536x1024 2D top-down pixel-art video game arena BACKGROUND ONLY, no UI, no text, no characters. A cozy neon rooftop hangout in a contemporary Chinese city at night, deep navy and teal palette, electric lime accent lights. Orthographic straight overhead view, not isometric. Wide clean rectangular central rooftop play field covers center 85% width and 75% height, with subtle dark tiled floor and faint circular faded paint in middle, uncluttered to read game projectiles. Only along outer perimeter: low parapet walls, small plant pots, rooftop ventilation boxes, a few cafe stools and an unbranded glowing green drink vending machine in top left, warm string lights along upper edge. Tiny skyline and distant windows beyond roof only at far top edge. Stylish detailed crisp pixel art matching anime chibi arcade characters, restrained contrast in central floor, attractive luminous edges. No logos, no lettering, no watermarks, no baked-in interface. Landscape composition.
+- 屋顶夜景背景。
+- 原创循环电子 BGM，支持独立开关和音量调节。
+- 更醒目的雪碧回血按钮与低血量提醒。
+- 命中闪光、气泡拖尾、施法光环。
+- 重拳冲击波与回血涟漪。
+- 更多小狗的文字弹幕与熟人玩笑。
 
-dist/music.js：原创八小节循环合成旋律，没有使用商业歌曲或外部采样。
+点击“开始”后，浏览器才会允许播放音乐。暂停或切出页面时，音乐停止；算术环节会自动降低音乐音量。
 
-dist/characters.png：内置 Imagegen 一次生成，1536 × 1024，四列两行。以下为生成提示词。绘图结果为深色背景，游戏以卡牌形式展示；酒神当前立绘仍可继续调整得更偏男性化。
+## 📦 离线游玩
 
-Use case: stylized-concept. Asset type: live Canvas game sprite sheet, not a mockup. Generate one 1536x1024 PNG, exactly four equal columns and two equal rows, with eight isolated full-body sprites. Each cell is 384x512. Place each sprite centrally inside its cell, with generous empty margin and feet at consistent baseline, no sprite crossing cell boundaries. Clean genuine transparent background preferred; if transparency unavailable use perfectly flat solid dark navy #111c32. No grid lines, no labels, no lettering, no scenery, no shadows outside silhouettes. Detailed charming crisp pixel art, chibi proportions but unmistakably adult human characters, consistent scale, clean readable silhouettes, front-facing slight three-quarter view. Seven Chinese adult characters and one squirrel. Row 1 left to right: (1) protagonist with short black hair in mint-green hoodie holding a small green soda can; (2) Xiaogou, cheerful young adult man from Shanghai, orange dog-ear hoodie; (3) Jiandan, handsome stylish adult male nightclub model aesthetic, black and gold blazer with open collar, holding a book; (4) Luyuan, handsome adult male lawyer, navy suit, silver glasses, holding paper. Row 2 left to right: (5) Yuanyuan, young adult woman wearing violet jacket, wistful expression, holding phone; (6) Kuchazi, adult male programmer, glasses, teal hoodie, holding laptop; (7) Jiushen, masculine-presenting adult woman, short dark hair, loose black jacket, broad relaxed stance, tired stoic face; (8) cute copper-colored squirrel summon with large curled tail. Keep the exact order and uniform regular 4x2 grid. Full bodies including footwear and all props entirely contained. No additional characters, no text, no watermark.
+1. 下载游戏发布 ZIP 包。
+2. **全部解压**，不要直接在压缩包里打开。
+3. 用 Chrome 或 Edge 打开解压目录中的 `index.html`。
+
+## 🛠️ 技术说明
+
+使用 HTML、CSS、JavaScript 和 Canvas 制作，音乐由 `music.js` 在设备上实时合成。
+
+- 无需玩家账号。
+- 不包含 API 密钥或付费接口。
+- 支持静态网站托管，例如 itch.io 和 GitHub Pages。
+- 在线托管的流量与使用限制以对应平台政策为准。
+
+## 💬 关于角色
+
+角色取材于朋友间的日常互动，并作了虚构和夸张处理；人物图像并非真人肖像。
+
+台词中的起哄、地域梗和嘴贫均属于熟人间的玩笑，不代表对任何地区人群的评价。上海话以文字形式呈现，不包含真人配音或方言录音。
+
+喝口雪碧，下一关见！
